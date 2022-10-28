@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Intro from "../components/Intro";
 import Screen2 from '../components/Screen2';
 import Screen3 from '../components/Screen3';
+import Screen4 from '../components/Screen4';
 import Topnav from '../components/Topnav';
 
 const Home: NextPage = () => {
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
       <Topnav/>
       <Intro/>
       <Screen2/>
-      <Screen3 />
+      <Screen4 />
     </div>
   )
 }
