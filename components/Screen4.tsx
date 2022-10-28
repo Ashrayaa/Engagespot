@@ -5,12 +5,12 @@ type Props = {};
 export default function Screen4({}: Props) {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 justify-center items-center align-middle">
         <h1
-        className="text-xl px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple mt-8"
+        className="text-xl px-4 font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple mt-8"
         >Features to build the <br/>
          Best notification experience </h1>
-        <p>
+        <p className="text-center text-xs ">
           We&apos;ve built awesome features so you don&apos;t have to start from
           scratch. Just integrate our SDKs and APIs to build a scalable
           notification system for your product.

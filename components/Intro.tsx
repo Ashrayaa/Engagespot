@@ -8,7 +8,7 @@ export default function Screen1({}: Props) {
   return (
     <div className="flex flex-col gap-10 mb-10 mt-8 lg:mt-0 lg:p-4 lg:flex-row lg:gap-32 lg:w-[95%] sm:mb-[15%]">
       <div className="flex flex-col gap-6 lg:flex lg:flex-col lg:gap-18 lg:p-16">
-        <div className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple sm:mt-14 mt-6 lg:text-6xl lg:flex lg:flex-col lg:gap-3">
+        <div className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple sm:mt-14 mt-6 lg:text-6xl lg:flex lg:flex-col lg:gap-3">
           <h1>Build Notification </h1>
           <h1>Infrastructure for </h1>
           <h1>your Product</h1>
