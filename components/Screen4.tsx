@@ -1,4 +1,14 @@
 import React from "react";
+import Image from "next/image";
+import Inapp from "/public/In-App.png";
+import Email from "/public/email.png";
+import Webpush from "/public/web push.png";
+import Mobilepush from "/public/mobile push.png";
+import Sms from "/public/sms.png";
+import Chat from "/public/chat.png";
+import User from "/public/user-pref.png";
+import Custom from "public/fully customizable.png";
+import Logs from "/public/logs.png";
 
 type Props = {};
 
@@ -6,80 +16,162 @@ export default function Screen4({}: Props) {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col gap-4 justify-center items-center align-middle">
-        <h1
-        className="text-xl px-4 font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple mt-8"
-        >Features to build the <br/>
-         Best notification experience </h1>
-        <p className="text-center text-xs ">
+        <h1 className="text-xl px-4 font-bold sm:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple mt-8">
+          Features to build the <br />
+          Best notification experience{" "}
+        </h1>
+        <p className="text-center sm:px-32 md:px-64 lg:px-80 sm:text-xl text-xs py-2 leading-6">
           We&apos;ve built awesome features so you don&apos;t have to start from
           scratch. Just integrate our SDKs and APIs to build a scalable
           notification system for your product.
         </p>
       </div>
-      <div>
-        <div>
-          {/* logo */}
-          <h1>In-App Notification</h1>
-          <p>In-app notification component for front-end apps.</p>
-          <button>Learn More</button>
+
+      <div className="flex flex-col justify-center gap-10 py-12 px-4">
+
+        <div className="sm:flex gap-6 sm:text-center sm:justify-center">
+          <div className="border-0 sm:flex sm:flex-col sm:justify-center sm:items-center gap-2 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Inapp} alt="In app notification" />
+            </div>
+
+            <h1 className="font-semibold">In-App Notification</h1>
+            <p className="text-xs leading-6">
+              In-app notification component for front-end apps.
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
+
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Email} alt="Email notification" />
+            </div>
+
+            <h1 className="font-semibold">Email Notification</h1>
+            <p className="text-xs leading-6">
+              Send email to users via Amazon SES, Sendgrid etc..
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
+
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Webpush} alt="Email notification" />
+            </div>
+
+            <h1 className="font-semibold">Web Push</h1>
+            <p className="text-xs leading-6">
+              Built in support for browser push notifications.
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
         </div>
 
-        <div>
-          {/* logo */}
-          <h1>Email Notification</h1>
-          <p>Send email to users via Amazon SES, Sendgrid etc..</p>
-          <button>Learn More</button>
+        <div className="sm:flex gap-14 sm:justify-center">
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center sm:text-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Mobilepush} alt="Email notification" />
+            </div>
+
+            <h1 className="font-semibold">Mobile Push</h1>
+            <p className="text-xs leading-6">
+              Deliver push notifications via FCM, APNS etc
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
+
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Sms} alt="Email notification" />
+            </div>
+
+            <h1 className="font-semibold">SMS</h1>
+            <p className="text-xs leading-6">
+              Send SMS notifications to your users.
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
+
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center sm:text-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Chat} alt="Email notification" />
+            </div>
+
+            <h1 className="font-semibold">Chat</h1>
+            <p className="text-xs leading-6">
+              Send chat messages to your users
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
         </div>
 
-        <div>
-          {/* logo */}
-          <h1>Web Push</h1>
-          <p>Built in support for browser push notifications.</p>
-          <button>Learn More</button>
-        </div>
+        <div className="sm:flex gap-10 sm:justify-center">
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={User} alt="Email notification" />
+            </div>
 
-        <div>
-          {/* logo */}
-          <h1>Mobile Push</h1>
-          <p>Deliver push notifications via FCM, APNS etc</p>
-          <button>Learn More</button>
-        </div>
+            <h1 className="font-semibold">User Preferences</h1>
+            <p className="text-xs leading-6 flex flex-wrap">
+              Allow your users to set their notification preferences. UI
+              components included.
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
 
-        <div>
-          {/* logo */}
-          <h1>SMS</h1>
-          <p>Send SMS notifications to your users.</p>
-          <button>Learn More</button>
-        </div>
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Custom} alt="Email notification" />
+            </div>
 
-        <div>
-          {/* logo */}
-          <h1>Chat</h1>
-          <p>Send chat messages to your users via Slack.</p>
-          <button>Learn More</button>
-        </div>
+            <h1 className="font-semibold">Fully Customizable</h1>
+            <p className="text-xs leading-6">
+              Customize front-end components and our backend SDKs and APIs to
+              suit your needs.
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
 
-        <div>
-          {/* logo */}
-          <h1>User Preferences</h1>
-          <p>Allow your users to set their notification preferences. UI components included.</p>
-          <button>Learn More</button>
-        </div>
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+            {/* logo */}
+            <div className="w-14">
+              <Image src={Logs} alt="Email notification" />
+            </div>
 
-        <div>
-          {/* logo */}
-          <h1>Fully Customizable</h1>
-          <p>Customize front-end components and our backend SDKs and APIs to suit your needs.</p>
-          <button>Learn More</button>
+            <h1 className="font-semibold">Logs and Monitoring</h1>
+            <p className="text-xs leading-6">
+              Allow your users to set their notification preferences. UI
+              components included.
+            </p>
+            <button className="text-spotpurple font-semibold text-sm">
+              Learn More
+            </button>
+          </div>
         </div>
-
-        <div>
-          {/* logo */}
-          <h1>Logs and Monitoring</h1>
-          <p>Allow your users to set their notification preferences. UI components included.</p>
-          <button>Learn More</button>
-        </div>
-
       </div>
     </div>
   );
