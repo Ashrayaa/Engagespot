@@ -27,9 +27,9 @@ export default function Screen4({}: Props) {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center gap-10 py-12 px-4">
+      <div className="flex flex-col justify-center gap-10 py-12 px-4 sm:24 lg:px-32 xl:px-72">
 
-        <div className="sm:flex gap-6 sm:text-center sm:justify-center">
+        <div className="sm:grid sm:grid-cols-3 sm:grid-flow-col gap-6 sm:text-center sm:justify-center">
           <div className="border-0 sm:flex sm:flex-col sm:justify-center sm:items-center gap-2 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
             {/* logo */}
             <div className="w-14">
@@ -76,7 +76,7 @@ export default function Screen4({}: Props) {
           </div>
         </div>
 
-        <div className="sm:flex gap-14 sm:justify-center">
+        <div className="sm:grid sm:grid-cols-3 sm:grid-flow-col gap-6 sm:justify-center">
           <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center sm:text-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
             {/* logo */}
             <div className="w-14">
@@ -123,7 +123,7 @@ export default function Screen4({}: Props) {
           </div>
         </div>
 
-        <div className="sm:flex gap-10 sm:justify-center">
+        <div className="sm:grid sm:grid-flow-col gap-6 sm:justify-center">
           <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
             {/* logo */}
             <div className="w-14">
