@@ -12,8 +12,8 @@ export default function Screen2({}: Props) {
   return (
     <div className="flex flex-col items-center font-bold text-white bg-gradient-to-r from-spotpurple to-engagepurple">
       <h1 className="mt-8">TRUSTED BY DEVELOPERS AT</h1>
-      <ul className="flex flex-col sm:flex-row sm:p-24 p-14 px-28 gap-10">
-        <li>
+      <ul className="flex flex-col sm:flex-row sm:p-24 p-14 gap-10">
+        {/* <li>
           <a>
           <Image src={Kerala} alt="displayimage" />
           </a>
@@ -37,7 +37,7 @@ export default function Screen2({}: Props) {
           <a>
           <Image src={Martino} alt="displayimage" />
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
