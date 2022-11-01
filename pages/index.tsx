@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import Screen2 from '../components/Screen2';
 import Screen3 from '../components/Screen3';
 import Screen4 from '../components/Screen4';
+import Screen5 from '../components/Screen5';
 import Topnav from '../components/Topnav';
 
 const Home: NextPage = () => {
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Intro/>
       <Screen2/>
       <Screen4 />
+      <Screen5/>
     </div>
   )
 }

@@ -27,10 +27,10 @@ export default function Screen4({}: Props) {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center gap-10 py-12 px-4 sm:24 lg:px-32 xl:px-72">
+      <div className="flex flex-col justify-center gap-10 py-12 px-4 sm:24 lg:px-32 xl:px-44">
 
         <div className="sm:grid sm:grid-cols-3 sm:grid-flow-col gap-6 sm:text-center sm:justify-center">
-          <div className="border-0 sm:flex sm:flex-col sm:justify-center sm:items-center gap-2 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+          <div className="border-0 sm:flex sm:flex-col sm:justify-center sm:items-center gap-2 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD] lg:py-12">
             {/* logo */}
             <div className="w-14">
               <Image src={Inapp} alt="In app notification" />
@@ -45,7 +45,7 @@ export default function Screen4({}: Props) {
             </button>
           </div>
 
-          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD] lg:py-12">
             {/* logo */}
             <div className="w-14">
               <Image src={Email} alt="Email notification" />
@@ -60,7 +60,7 @@ export default function Screen4({}: Props) {
             </button>
           </div>
 
-          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+          <div className="gap-2 lg:py-12 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
             {/* logo */}
             <div className="w-14">
               <Image src={Webpush} alt="Email notification" />
@@ -77,7 +77,7 @@ export default function Screen4({}: Props) {
         </div>
 
         <div className="sm:grid sm:grid-cols-3 sm:grid-flow-col gap-6 sm:justify-center">
-          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center sm:text-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+          <div className="gap-2 lg:py-12 sm:flex sm:flex-col sm:justify-center sm:items-center sm:text-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
             {/* logo */}
             <div className="w-14">
               <Image src={Mobilepush} alt="Email notification" />
@@ -123,8 +123,8 @@ export default function Screen4({}: Props) {
           </div>
         </div>
 
-        <div className="sm:grid sm:grid-flow-col gap-6 sm:justify-center">
-          <div className="gap-2 sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
+        <div className="sm:grid text-center sm:grid-flow-col gap-6 sm:justify-center">
+          <div className="gap-2 lg:py-12 text-center sm:flex sm:flex-col sm:justify-center sm:items-center border-0 p-4 rounded-xl shadow-lg shadow-[#FFE6FD] border-[#FFE6FD]">
             {/* logo */}
             <div className="w-14">
               <Image src={User} alt="Email notification" />
