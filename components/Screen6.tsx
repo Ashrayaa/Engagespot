@@ -14,6 +14,11 @@ import Message from "/public/messagebird.svg";
 import Sinch from "/public/sinch.svg";
 import Gupshup from "/public/gupshup.svg";
 import Karix from "/public/karix.svg";
+import Whatsapp from "/public/whatsapp.svg";
+import Chat from "/public/chat.svg";
+import Slack from "/public/slack.svg";
+import Inbox from "/public/inbox.svg";
+import Engagespot from "/public/logo.svg";
 
 type Props = {};
 
@@ -72,7 +77,7 @@ export default function Screen6({}: Props) {
           </div>
           <p>SMS</p>
         </div>
-       
+
         <div className="flex flex-col gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
           <div className="flex gap-8">
             <Image src={Red} alt="Twilio" />
@@ -87,59 +92,46 @@ export default function Screen6({}: Props) {
           </div>
         </div>
 
-{/* Whatsapp */}
+        {/* Whatsapp */}
         <div className="flex gap-2 font-medium text-xs text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
           <div>
-            <Image src={Mail} alt="Mail" />
+            <Image src={Whatsapp} alt="Whatsapp" />
           </div>
           <p className="flex justify-center items-center">Whatsapp</p>
         </div>
 
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
+        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
           <div className="flex gap-8">
-            <Image src={Twilio} alt="Twilio SendGrid" />
-            <Image src={Amazon} alt="Amazon" />
-          </div>
-          <div className="flex justify-center">
-            <Image src={Mailgun} alt="Mailgun" />
+            <Image src={Karix} alt="Karix" />
+            <Image src={Gupshup} alt="Gupshup" />
           </div>
         </div>
 
         <div className="flex gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
           <div>
-            <Image src={Mail} alt="Mail" />
+            <Image src={Chat} alt="Chat" />
           </div>
-          <p>Mail</p>
+          <p>Chat</p>
         </div>
         {/* <div className="">
 
         </div> */}
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
-          <div className="flex gap-8">
-            <Image src={Twilio} alt="Twilio SendGrid" />
-            <Image src={Amazon} alt="Amazon" />
-          </div>
-          <div className="flex justify-center">
-            <Image src={Mailgun} alt="Mailgun" />
+        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+          <div className="px-20">
+            <Image src={Slack} alt="Slack" />
           </div>
         </div>
 
         <div className="flex gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
           <div>
-            <Image src={Mail} alt="Mail" />
+            <Image src={Inbox} alt="Inbox" />
           </div>
-          <p>Mail</p>
+          <p>Inbox</p>
         </div>
-        {/* <div className="">
-
-        </div> */}
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
-          <div className="flex gap-8">
-            <Image src={Twilio} alt="Twilio SendGrid" />
-            <Image src={Amazon} alt="Amazon" />
-          </div>
-          <div className="flex justify-center">
-            <Image src={Mailgun} alt="Mailgun" />
+       
+        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+          <div >
+            <Image src={Engagespot} alt="Engagespot" />
           </div>
         </div>
       </div>
