@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         'spotpurple': '#3B006A',
         'engagepurple' : '#71157A',
-        'litepurple' : '#EAD5FB',
+        'litepurple' : '#faf6fe',
       },
     },
   },
