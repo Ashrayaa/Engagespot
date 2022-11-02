@@ -6,13 +6,13 @@ type Props = {}
 
 export default function Menubar({}: Props) {
   return (
-    <div className="sm:hidden">
+    <div className="lg:hidden">
         <Link href="#">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          className="w-10 h-10 sm:hidden"
+          className="w-10 h-10 lg:hidden sm:ml-44 md:ml-56"
         >
           <path
             // fill-rule="evenodd"

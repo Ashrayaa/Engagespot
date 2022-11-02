@@ -25,14 +25,14 @@ type Props = {};
 export default function Screen6({}: Props) {
   return (
     <div>
-      <h1 className="font-bold pt-20 text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-spotpurple to-engagepurple">
+      <h1 className="font-bold pt-20 text-2xl lg:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-b from-spotpurple to-engagepurple">
         Pick channels for your messages
       </h1>
-      <p className="text-center font-semibold py-4">
+      <p className="text-center lg:text-xl font-semibold py-4">
         Setup your first notification in 5 minutes
       </p>
 
-      <div className="bg-litepurple lg:flex-col p-6 lg:p-12 flex flex-col gap-14 justify-center items-center lg:items-start lg:px-12">
+      <div className="bg-litepurple lg:flex-col xl:mx-32 lg:mx-16 p-6 lg:p-12 flex flex-col gap-14 justify-center items-center lg:items-start">
         {/* Mail section */}
         <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
           <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
