@@ -32,106 +32,159 @@ export default function Screen6({}: Props) {
         Setup your first notification in 5 minutes
       </p>
 
-      <div className="bg-litepurple p-6 flex flex-col gap-14 justify-center items-center">
+      <div className="bg-litepurple lg:flex-col p-6 lg:p-12 flex flex-col gap-14 justify-center items-center lg:items-start lg:px-12">
         {/* Mail section */}
-        <div className="flex gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
-          <div>
-            <Image src={Mail} alt="Mail" />
+        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+          <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
+            <div>
+              <Image src={Mail} alt="Mail" />
+            </div>
+            <p>Mail</p>
           </div>
-          <p>Mail</p>
+
+          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
+            <p>----------</p>
+            <p>-----</p>
+            <p>----------</p>
+          </div>
+
+          <div className="flex flex-col lg:flex-row lg:p-10 gap-8 justify-center border border-engagepurple p-4 rounded-lg border-dashed">
+            <div className="flex gap-8">
+              <Image src={Twilio} alt="Twilio SendGrid" />
+              <Image src={Amazon} alt="Amazon" />
+            </div>
+            <div className="flex justify-center">
+              <Image src={Mailgun} alt="Mailgun" />
+            </div>
+          </div>
         </div>
 
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-4 rounded-lg border-dashed">
-          <div className="flex gap-8">
-            <Image src={Twilio} alt="Twilio SendGrid" />
-            <Image src={Amazon} alt="Amazon" />
-          </div>
-          <div className="flex justify-center">
-            <Image src={Mailgun} alt="Mailgun" />
-          </div>
-        </div>
+        <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
 
         {/* Push Section */}
-        <div className="flex gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-lg w-28">
-          <div>
-            <Image src={Push} alt="Push" />
+        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+          <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-lg w-28">
+            <div>
+              <Image src={Push} alt="Push" />
+            </div>
+            <p>Push</p>
           </div>
-          <p>Push</p>
+          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
+            <div>----------</div>
+            <div>-----</div>
+            <div>----------</div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row lg:p-10 gap-6 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
+            <div className="flex gap-8">
+              <Image src={Firebase} alt="Firebase" />
+              <Image src={Xiaomi} alt="Xiaomi" />
+            </div>
+            <div className="flex justify-center">
+              <Image src={Apple} alt="Apple" />
+            </div>
+          </div>
         </div>
 
-        <div className="flex flex-col gap-6 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
-          <div className="flex gap-8">
-            <Image src={Firebase} alt="Firebase" />
-            <Image src={Xiaomi} alt="Xiaomi" />
-          </div>
-          <div className="flex justify-center">
-            <Image src={Apple} alt="Apple" />
-          </div>
-        </div>
+        <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
 
         {/* SMS Section */}
-
-        <div className="flex gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
-          <div>
-            <Image src={SMS} alt="SMS" />
+        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+          <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
+            <div>
+              <Image src={SMS} alt="SMS" />
+            </div>
+            <p>SMS</p>
           </div>
-          <p>SMS</p>
+
+          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
+            <div>----------</div>
+            <div>----</div>
+            <div>----------</div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row lg:p-10 gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
+            <div className="flex gap-8">
+              <Image src={Red} alt="Twilio" />
+              <Image src={Message} alt="Messagebird" />
+            </div>
+            <div className="flex gap-8">
+              <Image src={Sinch} alt="Sinch" />
+              <Image src={Gupshup} alt="Gupshup" />
+            </div>
+            <div className="flex justify-center">
+              <Image src={Karix} alt="Karix" />
+            </div>
+          </div>
         </div>
 
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
-          <div className="flex gap-8">
-            <Image src={Red} alt="Twilio" />
-            <Image src={Message} alt="Messagebird" />
-          </div>
-          <div className="flex gap-8">
-            <Image src={Sinch} alt="Sinch" />
-            <Image src={Gupshup} alt="Gupshup" />
-          </div>
-          <div className="flex justify-center">
-            <Image src={Karix} alt="Karix" />
-          </div>
-        </div>
+        <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
 
         {/* Whatsapp */}
-        <div className="flex gap-2 font-medium text-xs text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
-          <div>
-            <Image src={Whatsapp} alt="Whatsapp" />
+        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+          <div className="flex pt-2 gap-2 font-medium text-xs text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
+            <div>
+              <Image src={Whatsapp} alt="Whatsapp" />
+            </div>
+            <p className="flex justify-center items-center">Whatsapp</p>
           </div>
-          <p className="flex justify-center items-center">Whatsapp</p>
-        </div>
 
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
-          <div className="flex gap-8">
-            <Image src={Karix} alt="Karix" />
-            <Image src={Gupshup} alt="Gupshup" />
+          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
+            <div>----------</div>
+            <div>----</div>
+            <div>----------</div>
           </div>
-        </div>
 
-        <div className="flex gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
-          <div>
-            <Image src={Chat} alt="Chat" />
-          </div>
-          <p>Chat</p>
-        </div>
-        {/* <div className="">
-
-        </div> */}
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
-          <div className="px-20">
-            <Image src={Slack} alt="Slack" />
+          <div className="flex flex-col lg:flex-row lg:p-10 gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+            <div className="flex gap-8">
+              <Image src={Karix} alt="Karix" />
+              <Image src={Gupshup} alt="Gupshup" />
+            </div>
           </div>
         </div>
 
-        <div className="flex gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
-          <div>
-            <Image src={Inbox} alt="Inbox" />
+        <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
+
+        {/* Chat */}
+        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+          <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
+            <div>
+              <Image src={Chat} alt="Chat" />
+            </div>
+            <p>Chat</p>
           </div>
-          <p>Inbox</p>
+          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
+            <div>----------</div>
+            <div>----</div>
+            <div>----------</div>
+          </div>
+          <div className="flex flex-col lg:p-10 gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+            <div className="px-20">
+              <Image src={Slack} alt="Slack" />
+            </div>
+          </div>
         </div>
-       
-        <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
-          <div >
-            <Image src={Engagespot} alt="Engagespot" />
+
+        <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
+        {/* Inbox */}
+        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+          <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
+            <div>
+              <Image src={Inbox} alt="Inbox" />
+            </div>
+            <p>Inbox</p>
+          </div>
+
+          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
+            <div>----------</div>
+            <div>----</div>
+            <div>----------</div>
+          </div>
+
+          <div className="flex lg:p-10 flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+            <div>
+              <Image src={Engagespot} alt="Engagespot" />
+            </div>
           </div>
         </div>
       </div>
