@@ -28,7 +28,7 @@ export default function Screen1({}: Props) {
             type="textbox"
             placeholder="Enter your mail id"
           ></input>
-          <button className="text-white p-4 sm:p-8 bg-gradient-to-r from-spotpurple to-engagepurple hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-engagepurple font-semibold rounded-lg text-lg sm:text-2xl text-center">
+          <button className="text-white p-4 sm:p-8 bg-gradient-to-r from-spotpurple to-engagepurple  font-semibold rounded-lg text-lg sm:text-2xl text-center">
             Get Started
           </button>
         </div>

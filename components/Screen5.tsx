@@ -6,12 +6,12 @@ type Props = {};
 
 export default function Screen5({}: Props) {
   return (
-    <div>
-      <p className="text-center font-medium sm:px-32 md:px-64 lg:px-80 sm:text-xl text-sm py-2 leading-6 mb-4">
+    <div className="px-4">
+      <p className="text-center font-medium lg:px-80 sm:text-xl md:text-2xl text-sm py-2 leading-6 mb-4">
         And many more features out-of-the box to build a notification system in
         minutes.
       </p>
-      <div className="grid gap-8 text-xs pl-6">
+      <div className="grid gap-8 text-xs pl- sm:pl-12 md:pl-24">
         <ul className="grid grid-cols-2 gap-8 md:grid-rows-4 ">
           <li className="flex gap-2">
             <div className="w-5 h-5">
@@ -49,7 +49,7 @@ export default function Screen5({}: Props) {
             </div>
             User Identifiers
           </li>
-          <li className="flex gap-2">
+          <li className="flex gap-3 sm:gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
             </div>
@@ -64,7 +64,7 @@ export default function Screen5({}: Props) {
         </ul>
 
         <ul className="grid grid-cols-2 gap-8">
-          <li className="flex gap-2">
+          <li className="flex gap-3 sm:gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
             </div>
@@ -76,7 +76,7 @@ export default function Screen5({}: Props) {
             </div>
             Emoji Support
           </li>
-          <li className="flex gap-2">
+          <li className="flex gap-3 sm:gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
             </div>
@@ -88,19 +88,19 @@ export default function Screen5({}: Props) {
             </div>
             Custom Actions
           </li>
-          <li className="flex gap-2">
+          <li className="flex gap-3 sm:gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
             </div>
             Fast Response Time
           </li>
-          <li className="flex gap-2">
+          <li className="flex gap-3 sm:gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
             </div>
             Scalable Infrastructure
           </li>
-          <li className="flex gap-2">
+          <li className="flex gap-3 sm:gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
             </div>
