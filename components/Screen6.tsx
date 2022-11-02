@@ -32,9 +32,9 @@ export default function Screen6({}: Props) {
         Setup your first notification in 5 minutes
       </p>
 
-      <div className="bg-litepurple lg:flex-col xl:mx-32 lg:mx-16 p-6 lg:p-12 flex flex-col gap-14 justify-center items-center lg:items-start">
+      <div className="bg-litepurple lg:flex-col xl:mx-44 lg:mx-16 p-6 lg:p-12 flex flex-col gap-14 justify-center items-center lg:items-start rounded-2xl">
         {/* Mail section */}
-        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:gap-2 gap-8 justify-center items-center">
           <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
             <div>
               <Image src={Mail} alt="Mail" />
@@ -42,13 +42,13 @@ export default function Screen6({}: Props) {
             <p>Mail</p>
           </div>
 
-          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
-            <p>----------</p>
+          <div className="flex flex-col leading-3 text-engagepurple rotate-90 lg:rotate-0">
+            <p>--------</p>
             <p>-----</p>
-            <p>----------</p>
+            <p>--------</p>
           </div>
 
-          <div className="flex flex-col lg:flex-row lg:p-10 gap-8 justify-center border border-engagepurple p-4 rounded-lg border-dashed">
+          <div className="flex flex-col lg:flex-row gap-8 justify-center border border-engagepurple p-4 rounded-lg border-dashed">
             <div className="flex gap-8">
               <Image src={Twilio} alt="Twilio SendGrid" />
               <Image src={Amazon} alt="Amazon" />
@@ -62,20 +62,20 @@ export default function Screen6({}: Props) {
         <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
 
         {/* Push Section */}
-        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:gap-2 gap-8 justify-center items-center">
           <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-lg w-28">
             <div>
               <Image src={Push} alt="Push" />
             </div>
             <p>Push</p>
           </div>
-          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
-            <div>----------</div>
+          <div className="flex flex-col leading-3 text-engagepurple rotate-90 lg:rotate-0">
+            <div>--------</div>
             <div>-----</div>
-            <div>----------</div>
+            <div>--------</div>
           </div>
 
-          <div className="flex flex-col lg:flex-row lg:p-10 gap-6 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
+          <div className="flex flex-col lg:flex-row gap-6 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
             <div className="flex gap-8">
               <Image src={Firebase} alt="Firebase" />
               <Image src={Xiaomi} alt="Xiaomi" />
@@ -89,7 +89,7 @@ export default function Screen6({}: Props) {
         <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
 
         {/* SMS Section */}
-        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:gap-2 gap-8 justify-center items-center">
           <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
             <div>
               <Image src={SMS} alt="SMS" />
@@ -97,13 +97,13 @@ export default function Screen6({}: Props) {
             <p>SMS</p>
           </div>
 
-          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
-            <div>----------</div>
+          <div className="flex flex-col leading-3 text-engagepurple rotate-90 lg:rotate-0">
+            <div>--------</div>
             <div>----</div>
-            <div>----------</div>
+            <div>--------</div>
           </div>
 
-          <div className="flex flex-col lg:flex-row lg:p-10 gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
+          <div className="flex flex-col lg:flex-row gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
             <div className="flex gap-8">
               <Image src={Red} alt="Twilio" />
               <Image src={Message} alt="Messagebird" />
@@ -121,7 +121,7 @@ export default function Screen6({}: Props) {
         <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
 
         {/* Whatsapp */}
-        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:gap-2 gap-8 justify-center items-center">
           <div className="flex pt-2 gap-2 font-medium text-xs text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
             <div>
               <Image src={Whatsapp} alt="Whatsapp" />
@@ -129,13 +129,13 @@ export default function Screen6({}: Props) {
             <p className="flex justify-center items-center">Whatsapp</p>
           </div>
 
-          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
-            <div>----------</div>
+          <div className="flex flex-col leading-3 text-engagepurple rotate-90 lg:rotate-0">
+            <div>--------</div>
             <div>----</div>
-            <div>----------</div>
+            <div>--------</div>
           </div>
 
-          <div className="flex flex-col lg:flex-row lg:p-10 gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+          <div className="flex flex-col lg:flex-row gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
             <div className="flex gap-8">
               <Image src={Karix} alt="Karix" />
               <Image src={Gupshup} alt="Gupshup" />
@@ -146,19 +146,19 @@ export default function Screen6({}: Props) {
         <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
 
         {/* Chat */}
-        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:gap-2 gap-8 justify-center items-center">
           <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
             <div>
               <Image src={Chat} alt="Chat" />
             </div>
             <p>Chat</p>
           </div>
-          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
-            <div>----------</div>
+          <div className="flex flex-col leading-3 text-engagepurple rotate-90 lg:rotate-0">
+            <div>--------</div>
             <div>----</div>
-            <div>----------</div>
+            <div>--------</div>
           </div>
-          <div className="flex flex-col lg:p-10 gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+          <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
             <div className="px-20">
               <Image src={Slack} alt="Slack" />
             </div>
@@ -167,7 +167,7 @@ export default function Screen6({}: Props) {
 
         <div className="w-[95%] h-0.5 bg-gray-200 lg:hidden"></div>
         {/* Inbox */}
-        <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:gap-2 gap-8 justify-center items-center">
           <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
             <div>
               <Image src={Inbox} alt="Inbox" />
@@ -175,13 +175,13 @@ export default function Screen6({}: Props) {
             <p>Inbox</p>
           </div>
 
-          <div className="flex flex-col leading-4 text-engagepurple rotate-90 lg:rotate-0">
-            <div>----------</div>
+          <div className="flex flex-col leading-3 text-engagepurple rotate-90 lg:rotate-0">
+            <div>--------</div>
             <div>----</div>
-            <div>----------</div>
+            <div>--------</div>
           </div>
 
-          <div className="flex lg:p-10 flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+          <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
             <div>
               <Image src={Engagespot} alt="Engagespot" />
             </div>

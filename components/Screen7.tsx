@@ -4,11 +4,11 @@ type Props = {};
 
 export default function Screen7({}: Props) {
   return (
-    <div className="flex flex-col gap-6 p-8 mt-10 text-white bg-gradient-to-r from-spotpurple to-engagepurple">
+    <div className="flex flex-col gap-6 p-8 mt-10 text-white bg-gradient-to-r from-spotpurple to-engagepurple lg:m-16 lg:border lg:rounded-2xl">
       <h1 className="font-semibold text-xl md:text-2xl text-center xl:text-3xl">
         A complete notifications system, setup in minutes
       </h1>
-      <p className="font-medium text-center text-sm md:text-lg xl:text-xl xl:px-20">
+      <p className="font-medium text-center text-sm md:text-lg xl:px-52">
         Get a complete product notification system that includes batching,
         cross-channel delivery, and preference management all within a few
         minutes. 10k notifications included per month for free.
