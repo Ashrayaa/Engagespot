@@ -3,7 +3,10 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Topnav from '../components/Home/Topnav';
-import PricingIntro from '../components/Pricing/Pricingintro';
+import PricingIntro from '../components/Pricing/PricingIntro';
+import Monthlypricing from '../components/Pricing/Monthlypricing';
+import ListIncluded from '../components/Pricing/ListIncluded';
+import FAQ from '../components/Pricing/FAQ';
 
 const Pricing: NextPage = () => {
     return (
@@ -15,6 +18,9 @@ const Pricing: NextPage = () => {
         </Head>
         <Topnav/>
         <PricingIntro/>
+        <Monthlypricing/>
+        <ListIncluded/>
+        <FAQ/>
       </div>
     )
   }
