@@ -14,6 +14,7 @@ export default function Topnav({}: Props) {
       {/* lg:grid lg:grid-cols-2 lg:justify-center lg:items-center */}
       <div className="flex justify-center items-center gap-28 md:gap-52 sm:gap-44">
         <Image src={Logo} alt="logo" width="200" />
+
         <Menubar />
       </div>
 

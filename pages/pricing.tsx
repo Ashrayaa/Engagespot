@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Topnav from '../components/Home/Topnav';
+import PricingIntro from '../components/Pricing/Pricingintro';
 
 const Pricing: NextPage = () => {
     return (
@@ -13,6 +14,7 @@ const Pricing: NextPage = () => {
           <link rel="icon" href="/favicon.svg" />
         </Head>
         <Topnav/>
+        <PricingIntro/>
       </div>
     )
   }
