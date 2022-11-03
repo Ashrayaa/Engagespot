@@ -29,7 +29,7 @@ export default function Screen1({}: Props) {
             placeholder="Enter your mail id"
           >
           </input>
-          <button className="text-white p-4 lg:p-4 sm:p-8 bg-gradient-to-r from-spotpurple to-engagepurple lg:absolute font-medium rounded-lg text-lg sm:text-2xl text-center lg:ml-72 xl:ml-[25%] 2xl:ml-[22%]">
+          <button className="text-white p-4 lg:p-4 sm:p-8 bg-gradient-to-r from-spotpurple to-engagepurple lg:absolute font-medium rounded-lg text-lg sm:text-2xl text-center lg:ml-72 xl:ml-[25%] 2xl:ml-[19%] 3xl:ml-[15%] 4xl:ml-[12%]">
             Get Started
           </button>
         </div>
