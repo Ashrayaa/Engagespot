@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import Displayimage from "public/displayimage.svg";
+import Displayimage from "public/displaypngcopy.png";
 
 type Props = {};
 
 export default function Screen1({}: Props) {
   return (
-    <div className="flex flex-col sm:p-6 md:p-10  mb-10 lg:mt-0 lg:p-4 lg:flex-row lg:gap-32 lg:w-[95%] sm:mb-[15%]">
+    <div className="flex flex-col sm:p-4 md:p-10  mb-10 lg:mt-0 lg:p-4 lg:flex-row lg:gap-32 lg:w-[95%] sm:mb-[15%]">
       <div className="flex flex-col p-2  gap-6 md:gap-10 lg:flex lg:flex-col lg:gap-18 lg:p-16">
         <div className="text-3xl   font-semibold text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple sm:mt-14 mt-6 lg:text-6xl sm:text-6xl sm:justify-center sm:items-center  lg:flex lg:flex-col lg:gap-3">
           <h1>Build Notification </h1>
@@ -39,7 +39,7 @@ export default function Screen1({}: Props) {
       </div>
 
       <div className="sm:mt-20">
-        <Image src={Displayimage} alt="displayimage" />
+        <Image src={Displayimage} alt="displayimage"/>
       </div>
     </div>
   );

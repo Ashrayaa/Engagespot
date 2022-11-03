@@ -7,25 +7,52 @@ type Props = {};
 
 export default function Topnav({}: Props) {
   return (
-    <div className="lg:grid lg:grid-cols-2">
-      <div className="grid grid-flow-col gap-24 sm:grid-cols-2 sm:pt-8 sm:px-4 justify-center items-center">
+    <nav className="lg:flex lg:justify-between xl:gap-44 lg:items-center lg:mx-6 xl:mx-20">
+      {/* LOGO */}
+      {/* lg:grid lg:grid-cols-2 lg:justify-center lg:items-center */}
+      <div className="flex justify-center items-center gap-28 md:gap-52 sm:gap-44">
         <Image src={Logo} alt="logo" width="200" />
         <Menubar />
       </div>
 
-      <div className="lg:grid lg:grid-cols-2 lg:gap-12 hidden">
-        <ul className="grid grid-cols-5 text-spotpurple font-semibold">
-          <li>Products</li>
-          <li>Pricing</li>
-          <li>Integrations</li>
-          <li>Documentation</li>
-          <li>Blog</li>
+      {/* LINKS AND BUTTON */}
+      {/* lg:-ml-44 */}
+      <div className="lg:flex lg:justify-center lg:items-center lg:gap-10 hidden">
+        <ul className="lg:flex lg:justify-center lg:items-center lg:gap-10">
+          <li className="text-spotpurple font-semibold hover:text-gray-600">Products</li>
+          <li className="text-spotpurple font-semibold hover:text-gray-600">Pricing</li>
+          <li className="text-spotpurple font-semibold hover:text-gray-600">Integrations</li>
+          <li className="text-spotpurple font-semibold hover:text-gray-600">Documentation</li>
+          <li className="text-spotpurple font-semibold hover:text-gray-600">Blog</li>
         </ul>
-        <button className="text-white bg-gradient-to-r from-spotpurple to-engagepurple hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-engagepurple font-semibold rounded-lg text-lg text-center">
+        <div className=" ">
+        <button className="inline-flex items-center border border-transparent bg-gradient-to-r from-[#3B006A] to-[#7D1874] px-4 py-2 text-lg font-medium rounded-[5px] font-poppins text-white hover:bg-gray-700">
           Get Started
         </button>
+        </div>
+        
       </div>
-    </div>
+    </nav>
+
+    // <div className="lg:grid lg:grid-cols-2">
+    //   <div className="grid grid-flow-col gap-24 sm:grid-cols-2 sm:pt-8 sm:px-4 justify-center items-center">
+    //     <Image src={Logo} alt="logo" width="200" />
+    //     <Menubar />
+    //   </div>
+
+    //   <div className="lg:grid lg:grid-cols-2 lg:gap-12 hidden">
+    //     <ul className="grid grid-cols-5 text-spotpurple font-semibold">
+    //       <li>Products</li>
+    //       <li>Pricing</li>
+    //       <li>Integrations</li>
+    //       <li>Documentation</li>
+    //       <li>Blog</li>
+    //     </ul>
+    //     <button className="text-white bg-gradient-to-r from-spotpurple to-engagepurple hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-engagepurple font-semibold rounded-lg text-lg text-center">
+    //       Get Started
+    //     </button>
+    //   </div>
+    // </div>
 
     // <div className="flex lg:gap-[30%] justify-between">
     //   <div className="flex gap-20 justify-center items-center sm:ml-20">
@@ -53,9 +80,9 @@ export default function Topnav({}: Props) {
     //   <li>Documentation</li>
     //   <li>Blog</li>
     // </ul>
-        // <button className="text-white p-2 px-4 w-[100%]  bg-gradient-to-r from-spotpurple to-engagepurple hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-engagepurple font-semibold rounded-lg text-lg text-center">
-        //   Get Started
-        // </button>
+    // <button className="text-white p-2 px-4 w-[100%]  bg-gradient-to-r from-spotpurple to-engagepurple hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-engagepurple font-semibold rounded-lg text-lg text-center">
+    //   Get Started
+    // </button>
     //   </div>
     // </div>
   );

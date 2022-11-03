@@ -115,7 +115,7 @@ export default function Screen5({}: Props) {
         </ul>
       </div>
 
-      <div className="lg:px-2 lg:pl-24 lg:visible ">
+      <div className="lg:px-2 lg:pl-24 lg:visible hidden md:hidden sm:hidden">
         <ul className="lg:grid lg:grid-cols-4 lg:gap-10 lg:py-8">
           <li className="flex gap-2">
             <div className="w-5 h-5">

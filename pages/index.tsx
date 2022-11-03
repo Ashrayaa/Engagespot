@@ -12,7 +12,7 @@ import Topnav from '../components/Topnav';
 
 const Home: NextPage = () => {
   return (
-    <div className='lg:px-2 lg:py-6 p-6'>
+    <div className='lg:px-0 lg:py-8 p-6'>
       <Head>
         <title>Engagespot</title>
         <meta name="description" content="Engagespot" />
