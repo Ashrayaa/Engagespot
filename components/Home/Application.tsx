@@ -32,7 +32,7 @@ export default function Screen6({}: Props) {
         Setup your first notification in 5 minutes
       </p>
 
-      <div className="bg-litepurple lg:flex-col xl:mx-44 lg:mx-16 p-6 lg:p-12 flex flex-col gap-14 justify-center items-center lg:items-start rounded-2xl">
+      <div className="bg-litepurple lg:flex-col xl:mx-44 xl:pl-24 lg:mx-16 p-6 lg:p-12 flex flex-col gap-14 justify-center items-center lg:items-start rounded-2xl">
         {/* Mail section */}
         <div className="flex lg:flex-row flex-col lg:gap-2 gap-8 justify-center items-center">
           <div className="flex pt-2 gap-4 font-medium text-spotpurple border p-1 pb-0 border-spotpurple rounded-xl w-28">
@@ -135,7 +135,7 @@ export default function Screen6({}: Props) {
             <div>--------</div>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+          <div className="flex flex-col lg:flex-row gap-8 justify-center border border-engagepurple p-4 rounded-xl border-dashed">
             <div className="flex gap-8">
               <Image src={Karix} alt="Karix" />
               <Image src={Gupshup} alt="Gupshup" />
@@ -158,8 +158,8 @@ export default function Screen6({}: Props) {
             <div>----</div>
             <div>--------</div>
           </div>
-          <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
-            <div className="px-20">
+          <div className="flex flex-col gap-8 justify-center border border-engagepurple px-3 py-4 rounded-xl border-dashed">
+            <div className="px-10">
               <Image src={Slack} alt="Slack" />
             </div>
           </div>
@@ -181,9 +181,9 @@ export default function Screen6({}: Props) {
             <div>--------</div>
           </div>
 
-          <div className="flex flex-col gap-8 justify-center border border-engagepurple p-6 rounded-xl border-dashed">
+          <div className="flex flex-col gap-8 justify-center border border-engagepurple px-4 rounded-xl border-dashed">
             <div>
-              <Image src={Engagespot} alt="Engagespot" />
+              <Image src={Engagespot} alt="Engagespot" width={150}/>
             </div>
           </div>
         </div>

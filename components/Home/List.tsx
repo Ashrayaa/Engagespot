@@ -13,6 +13,7 @@ export default function Screen5({}: Props) {
       </p>
       <div className="grid gap-8 text-xs pl- sm:pl-12 md:pl-24 lg:hidden">
         <ul className="grid grid-cols-2 gap-8 md:grid-rows-4 ">
+          
           <li className="flex gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />

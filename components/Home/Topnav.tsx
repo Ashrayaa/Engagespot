@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Logo from "public/logo.svg";
 import Menubar from "./Menubar";
+import Head from "next/head";
+import Link from "next/link";
 
 type Props = {};
 
@@ -19,18 +21,41 @@ export default function Topnav({}: Props) {
       {/* lg:-ml-44 */}
       <div className="lg:flex lg:justify-center lg:items-center lg:gap-10 hidden">
         <ul className="lg:flex lg:justify-center lg:items-center lg:gap-10">
-          <li className="text-spotpurple font-semibold hover:text-gray-600">Products</li>
-          <li className="text-spotpurple font-semibold hover:text-gray-600">Pricing</li>
-          <li className="text-spotpurple font-semibold hover:text-gray-600">Integrations</li>
-          <li className="text-spotpurple font-semibold hover:text-gray-600">Documentation</li>
-          <li className="text-spotpurple font-semibold hover:text-gray-600">Blog</li>
+          <Link href="/products">
+            <li className="text-spotpurple font-semibold hover:text-gray-600">
+              Products
+            </li>
+          </Link>
+
+          <Link href="/pricing">
+            <li className="text-spotpurple font-semibold hover:text-gray-600">
+              Pricing
+            </li>
+          </Link>
+
+          <Link href="/integration">
+            <li className="text-spotpurple font-semibold hover:text-gray-600">
+              Integrations
+            </li>
+          </Link>
+
+          <Link href="/documentation">
+            <li className="text-spotpurple font-semibold hover:text-gray-600">
+              Documentation
+            </li>
+          </Link>
+
+          <Link href="/blog">
+            <li className="text-spotpurple font-semibold hover:text-gray-600">
+              Blog
+            </li>
+          </Link>
         </ul>
         <div className=" ">
-        <button className="inline-flex items-center border border-transparent bg-gradient-to-r from-[#3B006A] to-[#7D1874] px-4 py-2 text-lg font-medium rounded-[5px] font-poppins text-white hover:bg-gray-700">
-          Get Started
-        </button>
+          <button className="inline-flex items-center border border-transparent bg-gradient-to-r from-[#3B006A] to-[#7D1874] px-4 py-2 text-lg font-medium rounded-[5px] font-poppins text-white hover:bg-gray-700">
+            Get Started
+          </button>
         </div>
-        
       </div>
     </nav>
 

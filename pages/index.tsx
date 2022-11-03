@@ -1,14 +1,14 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import Intro from "../components/Intro";
-import Screen2 from '../components/Screen2';
-import Screen3 from '../components/Screen3';
-import Screen4 from '../components/Screen4';
-import Screen5 from '../components/Screen5';
-import Screen6 from '../components/Screen6';
-import Screen7 from '../components/Screen7';
-import Topnav from '../components/Topnav';
+import Intro from "../components/Home/Intro";
+import Screen2 from '../components/Home/Trusteddev';
+import Screen3 from '../components/Home/Screen3';
+import Screen4 from '../components/Home/Grid';
+import Screen5 from '../components/Home/List';
+import Screen6 from '../components/Home/Application';
+import Screen7 from '../components/Home/Bottombanner';
+import Topnav from '../components/Home/Topnav';
 
 const Home: NextPage = () => {
   return (
