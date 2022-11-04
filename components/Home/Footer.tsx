@@ -24,12 +24,12 @@ export default function Footer({}: Props) {
 
           <div className="lg:mt-6 -ml-20 flex">
             <div>
-              <Link href="/">
+              <Link href="https://www.linkedin.com/company/engagespot-co/">
                 <Image src={LinkedIn} alt="linkedin" width="200" />
               </Link>
             </div>
             <div className="-ml-36">
-              <Link href="/">
+              <Link href="https://twitter.com/engagespot?lang=en">
                 <Image src={Twitter} alt="twitter" width="200" />
               </Link>
             </div>
