@@ -8,7 +8,7 @@ export default function Screen1({}: Props) {
   return (
     <div className="flex px-6 flex-col sm:p-4 md:p-10 mb-10 lg:flex-row sm:mb-[15%] lg:gap-32 lg:mb-2 xl:gap-44 xl:mb-0">
       <div className="flex flex-col p-2 xl:p-0 gap-6 md:gap-10 xl:mx-10 xl:gap-12">
-        <div className="text-3xl xl:text-5xl xl:leading-snug xl:font-bold font-semibold text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple sm:mt-14 mt-6 lg:text-5xl sm:text-6xl sm:justify-center sm:items-center">
+        <div className="text-3xl xl:text-5xl 2xl:text-6xl 2xl:leading-tight xl:leading-snug xl:font-bold font-semibold text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple sm:mt-14 mt-6 lg:text-5xl sm:text-6xl sm:justify-center sm:items-center">
           <h1>Build Notification Infrastructure for your Product</h1>
         </div>
         <div className="font-medium text-sm sm:text-lg md:text-xl text-engagepurple lg:text-sm lg:mr-8 xl:-mr-16 xl:text-lg">

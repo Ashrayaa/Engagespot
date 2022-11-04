@@ -11,7 +11,7 @@ export default function ListIncluded({}: Props) {
         What&apos;s Included
       </h1>
 
-      <ul className="text-xs grid lg:grid-rows-3 lg:space-y-4 gap-4 sm:gap-6 justify-center items-center">
+      <ul className="text-xs grid lg:grid-rows-3 sm:grid-rows-6 sm:grid-flow-col sm:space-y-1 sm:pl-4 items-center justify-center sm:gap-10 lg:grid-flow-col lg:gap-12 p-8 gap-4 ">
         <li className="flex gap-1">
           <div className="w-5 h-5">
             <Image src={Tick} alt="mark" />
