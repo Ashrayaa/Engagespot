@@ -27,14 +27,12 @@ export default function Screen1({}: Props) {
             placeholder="Enter your mail id"
           >
           </input>
-          <button className="text-white p-4 lg:p-4 sm:p-8 bg-gradient-to-r from-spotpurple to-engagepurple lg:absolute font-medium rounded-lg text-lg sm:text-2xl text-center lg:ml-72 xl:ml-[25%] 2xl:ml-[19%] 3xl:ml-[15%] 4xl:ml-[12%]">
+          <button className="text-white cursor-pointer p-4 lg:p-4 sm:p-8 bg-gradient-to-r from-spotpurple to-engagepurple lg:absolute font-medium rounded-lg text-lg sm:text-2xl text-center lg:ml-72 xl:ml-[25%] 2xl:ml-[22%] 4xl:ml-[12%]">
             Get Started
           </button>
         </div>
 
-        {/* <button className="text-white absolute mt-[66%] lg:mt-[23%] lg:ml-[30%] w-40 ml-44 bg-gradient-to-r from-spotpurple to-engagepurple hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-engagepurple font-medium h-10 rounded-xl text-lg text-center mr-2 mb-2">
-          Get Started
-        </button> */}
+      
       </div>
 
       <div className="sm:mt-20 lg:-ml-32 ">

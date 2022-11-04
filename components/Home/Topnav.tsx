@@ -12,8 +12,9 @@ export default function Topnav({}: Props) {
     <nav className="lg:flex lg:justify-between xl:gap-44 lg:items-center lg:mx-6 xl:mx-20">
       {/* LOGO */}
       {/* lg:grid lg:grid-cols-2 lg:justify-center lg:items-center */}
-      <div className="flex justify-center items-center gap-28 md:gap-52 sm:gap-44">
-        <Image src={Logo} alt="logo" width="200" />
+      <div className="flex justify-center items-center gap-28 md:gap-52 sm:gap-44 cursor-pointer">
+        <Link href="/"><Image src={Logo} alt="logo" width="200" /></Link>
+       
 
         <Menubar />
       </div>
@@ -21,39 +22,39 @@ export default function Topnav({}: Props) {
       {/* LINKS AND BUTTON */}
       {/* lg:-ml-44 */}
       <div className="lg:flex lg:justify-center lg:items-center lg:gap-10 hidden">
-        <ul className="lg:flex lg:justify-center lg:items-center lg:gap-10">
+        <ul className="lg:flex lg:justify-center lg:items-center lg:gap-10 ">
           <Link href="/products">
-            <li className="text-spotpurple font-semibold hover:text-gray-600">
+            <li className="text-spotpurple font-semibold hover:text-gray-600 cursor-pointer">
               Products
             </li>
           </Link>
 
           <Link href="/pricing">
-            <li className="text-spotpurple font-semibold hover:text-gray-600">
+            <li className="text-spotpurple font-semibold hover:text-gray-600 cursor-pointer">
               Pricing
             </li>
           </Link>
 
           <Link href="/integration">
-            <li className="text-spotpurple font-semibold hover:text-gray-600">
+            <li className="text-spotpurple font-semibold hover:text-gray-600 cursor-pointer">
               Integrations
             </li>
           </Link>
 
           <Link href="/documentation">
-            <li className="text-spotpurple font-semibold hover:text-gray-600">
+            <li className="text-spotpurple font-semibold hover:text-gray-600 cursor-pointer">
               Documentation
             </li>
           </Link>
 
           <Link href="/blog">
-            <li className="text-spotpurple font-semibold hover:text-gray-600">
+            <li className="text-spotpurple font-semibold hover:text-gray-600 cursor-pointer">
               Blog
             </li>
           </Link>
         </ul>
         <div className=" ">
-          <button className="inline-flex items-center border border-transparent bg-gradient-to-r from-[#3B006A] to-[#7D1874] px-4 py-2 text-lg font-medium rounded-[5px] font-poppins text-white hover:bg-gray-700">
+          <button className="inline-flex cursor-pointer items-center border border-transparent bg-gradient-to-r from-[#3B006A] to-[#7D1874] px-4 py-2 text-lg font-medium rounded-[5px] font-poppins text-white hover:bg-gray-700">
             Get Started
           </button>
         </div>

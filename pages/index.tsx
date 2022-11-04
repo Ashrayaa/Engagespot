@@ -1,9 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import Intro from "../components/Home/Intro";
 import Screen2 from '../components/Home/Trusteddev';
-import Screen3 from '../components/Home/Screen3';
 import Screen4 from '../components/Home/Grid';
 import Screen5 from '../components/Home/List';
 import Screen6 from '../components/Home/Application';

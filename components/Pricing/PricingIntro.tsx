@@ -14,7 +14,7 @@ export default function PricingIntro({}: Props) {
         can just buy and use it from day one?
       </p>
       <div className="flex flex-col md:flex-row md:gap-8 gap-6  justify-center items-center">
-        <button className="text-engagepurple bg-white rounded-lg py-2 px-4 font-semibold">Try for free</button>
+        <button className="text-engagepurple bg-white rounded-lg py-2 px-4 cursor-pointer font-semibold">Try for free</button>
         <p>Question? Talk to an expert</p>
       </div>
       <div className="hidden">
