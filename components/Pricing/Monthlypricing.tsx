@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Monthlypricing({}: Props) {
   return (
-    <div className="lg:flex lg:gap-8 xl:gap-24 xl:px-24 2xl:gap-32 2xl:px-52 lg:px-10 lg:-mt-64 lg:mb-24 ">
+    <div className="lg:flex lg:gap-8 xl:gap-24 xl:px-24 2xl:gap-32 2xl:px-52 lg:px-10 lg:-mt-64 lg:mb-24 px-6">
       {/* First Card */}
       <div className="flex flex-col gap-6 bg-white mt-10 p-2 xl:p-10 border rounded-xl shadow-md py-4">
             <div className="flex flex-col justify-center items-center gap-4">

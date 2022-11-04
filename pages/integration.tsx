@@ -10,7 +10,7 @@ import Footer from '../components/Home/Footer';
 
 const Integration: NextPage = () => {
     return (
-      <div className='lg:px-0 lg:py-8 p-6'>
+      <div className='lg:px-0 lg:py-8'>
         <Head>
           <title>Engagespot</title>
           <meta name="description" content="Engagespot" />

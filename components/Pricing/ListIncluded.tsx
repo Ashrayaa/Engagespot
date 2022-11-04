@@ -6,7 +6,7 @@ type Props = {};
 
 export default function ListIncluded({}: Props) {
   return (
-    <div className="flex flex-col gap-6 bg-[#f9f3fe] mt-6 p-4 rounded-xl lg:rounded-2xl lg:mx-16 lg:mb-24">
+    <div className="flex flex-col gap-6 bg-[#f9f3fe] mt-6 p-4 rounded-xl lg:rounded-2xl lg:mx-16 lg:mb-24 mx-4">
       <h1 className="font-semibold pt-4 text-2xl lg:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-b from-spotpurple to-engagepurple">
         What&apos;s Included
       </h1>

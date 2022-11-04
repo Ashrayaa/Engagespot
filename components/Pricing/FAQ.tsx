@@ -4,7 +4,7 @@ type Props = {};
 
 export default function FAQ({}: Props) {
   return (
-    <div className="flex flex-col gap-6 items-center justify-center p-4 bg-[#f9f3fe] mt-6">
+    <div className="flex flex-col gap-6 items-center justify-center p-4 bg-[#f9f3fe] mt-6 px-6 mx-6">
       <h1 className="text-2xl font-semibold">FAQ</h1>
       <ul className="flex flex-col p-2 gap-4">
         <li>
