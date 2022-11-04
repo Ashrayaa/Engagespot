@@ -20,7 +20,7 @@ export default function Footer({}: Props) {
             </Link>
           </div>
 
-          <p  className="font-extralight text-sm">Campaigns For Email, Linkedin, and Twitter</p>
+          <p  className="font-light text-sm">Campaigns For Email, Linkedin, and Twitter</p>
 
           <div className="lg:mt-6 -ml-20 flex">
             <div>
@@ -39,29 +39,29 @@ export default function Footer({}: Props) {
         <div className="grid gap-8 mt-10 sm:grid-cols-3 lg:gap-6 lg:space-x-6 lg:pt-16">
           <ul className="">
             <li className="text-sm font-semibold">Products</li>
-            <li className="text-xs font-extralight leading-6">Pricing</li>
-            <li className="text-xs font-extralight leading-6">
+            <li className="text-xs font-light leading-6">Pricing</li>
+            <li className="text-xs font-light leading-6">
               React Notifications
             </li>
-            <li className="text-xs font-extralight leading-6">
+            <li className="text-xs font-light leading-6">
               Notification UI Kit
             </li>
-            <li className="text-xs font-extralight leading-6">Features</li>
-            <li className="text-xs font-extralight leading-6">
+            <li className="text-xs font-light leading-6">Features</li>
+            <li className="text-xs font-light leading-6">
               Disposable Email detector
             </li>
           </ul>
           <ul>
             <li className="text-sm font-semibold">Company</li>
-            <li className="text-xs font-extralight leading-6">Blog</li>
-            <li className="text-xs font-extralight leading-6">Discord</li>
-            <li className="text-xs font-extralight leading-6">Doc</li>
-            <li className="text-xs font-extralight leading-6">Roadmap</li>
+            <li className="text-xs font-light leading-6">Blog</li>
+            <li className="text-xs font-light leading-6">Discord</li>
+            <li className="text-xs font-light leading-6">Doc</li>
+            <li className="text-xs font-light leading-6">Roadmap</li>
           </ul>
           <ul>
             <li className="text-sm font-semibold">Channels</li>
-            <li className="text-xs font-extralight leading-6">SMS</li>
-            <li className="text-xs font-extralight leading-6">Email</li>
+            <li className="text-xs font-light leading-6">SMS</li>
+            <li className="text-xs font-light leading-6">Email</li>
           </ul>
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function Footer({}: Props) {
 
       {/* Bottom Part */}
       <div className="-mb-20">
-        <ul className="flex flex-col text-xs font-extralight gap-4 px-10 py-4 sm:flex-row lg:text-sm lg:font-medium lg:justify-between sm:mx-6 md:mx-24 lg:px-16 lg:p-4">
+        <ul className="flex flex-col text-xs font-light gap-4 px-10 py-4 sm:flex-row lg:text-sm lg:font-medium lg:justify-between sm:mx-6 md:mx-24 lg:px-16 lg:p-4">
           <li className="">© 2022 Engagespot. All rights reserved.</li>
           <li>Help</li>
           <li>Terms and Conditions</li>

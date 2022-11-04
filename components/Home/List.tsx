@@ -11,9 +11,8 @@ export default function Screen5({}: Props) {
         And many more features out-of-the box to build a notification system in
         minutes.
       </p>
-      <div className="grid gap-8 text-xs pl- sm:pl-12 md:pl-24 lg:hidden">
-        <ul className="grid grid-cols-2 gap-8 md:grid-rows-4 ">
-          
+      <div className="grid  gap-8 text-xs pl-4 lg:pl-8 xl:pl-32 2xl:pl-36 sm:pl-12 md:pl-24">
+        <ul className="grid lg:grid-cols-4 lg:p-6 grid-cols-2 gap-8">
           <li className="flex gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
@@ -62,9 +61,6 @@ export default function Screen5({}: Props) {
             </div>
             React Hooks
           </li>
-        </ul>
-
-        <ul className="grid grid-cols-2 gap-8">
           <li className="flex gap-3 sm:gap-2">
             <div className="w-5 h-5">
               <Image src={Tick} alt="mark" />
@@ -116,7 +112,7 @@ export default function Screen5({}: Props) {
         </ul>
       </div>
 
-      <div className="lg:px-2 lg:pl-24 lg:visible hidden md:hidden sm:hidden">
+      {/* <div className="lg:px-2 lg:pl-24 lg:visible hidden md:hidden sm:hidden">
         <ul className="lg:grid lg:grid-cols-4 lg:gap-10 lg:py-8">
           <li className="flex gap-2">
             <div className="w-5 h-5">
@@ -221,7 +217,7 @@ export default function Screen5({}: Props) {
             Enterprise SLA
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
