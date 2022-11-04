@@ -33,7 +33,7 @@ export default function IntegrationGrid({}: Props) {
 
       <div className="flex flex-col justify-center gap-6 py-6 px-4 lg:gap-10 lg:px-32 xl:px-44">
         <div className="md:grid md:grid-cols-3 md:grid-flow-col lg:gap-10 grid gap-6 md:text-center md:justify-center">
-          <div className="border md:flex md:flex-col sm:justify-center md:items-center flex flex-col gap-2 p-4 rounded-xl shadow-sm shadow-[#FFE6FD] border-[#FFE6FD] lg:py-12">
+          <div className="border md:flex md:flex-col sm:justify-center md:items-center flex flex-col gap-2 p-4 rounded-xl shadow-md shadow-[#FFE6FD] border-[#FFE6FD] lg:py-12">
             {/* logo */}
             <div className="">
               <Image src={Twilio} alt="Twilio Sendgrid" />
@@ -55,7 +55,7 @@ export default function IntegrationGrid({}: Props) {
             </div>
           </div>
 
-          <div className="border md:flex md:flex-col sm:justify-center md:items-center flex flex-col gap-2 p-4 rounded-xl  shadow-[#FFE6FD] border-[#FFE6FD] lg:py-12">
+          <div className="border md:flex md:flex-col sm:justify-center md:items-center flex flex-col gap-2 p-4 rounded-xl shadow-md  shadow-[#FFE6FD] border-[#FFE6FD] lg:py-12">
             {/* logo */}
             <div className="">
               <Image src={Amazon} alt="Amazon" />
