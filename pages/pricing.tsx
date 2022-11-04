@@ -7,6 +7,7 @@ import PricingIntro from '../components/Pricing/PricingIntro';
 import Monthlypricing from '../components/Pricing/Monthlypricing';
 import ListIncluded from '../components/Pricing/ListIncluded';
 import FAQ from '../components/Pricing/FAQ';
+import Footer from '../components/Home/Footer';
 
 const Pricing: NextPage = () => {
     return (
@@ -21,6 +22,7 @@ const Pricing: NextPage = () => {
         <Monthlypricing/>
         <ListIncluded/>
         <FAQ/>
+        <Footer/>
       </div>
     )
   }

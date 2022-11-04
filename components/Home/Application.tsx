@@ -24,7 +24,7 @@ type Props = {};
 
 export default function Screen6({}: Props) {
   return (
-    <div>
+    <div className="px-6">
       <h1 className="font-bold pt-20 text-2xl lg:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-b from-spotpurple to-engagepurple">
         Pick channels for your messages
       </h1>

@@ -9,7 +9,7 @@ type Props = {};
 
 export default function Topnav({}: Props) {
   return (
-    <nav className="lg:flex lg:justify-between xl:gap-44 lg:items-center lg:mx-6 xl:mx-20">
+    <nav className="lg:flex lg:justify-between xl:gap-44 lg:items-center lg:mx-6 xl:mx-20 p-6 lg:p-2 xl:p-1">
       {/* LOGO */}
       {/* lg:grid lg:grid-cols-2 lg:justify-center lg:items-center */}
       <div className="flex justify-center items-center gap-28 md:gap-52 sm:gap-44 cursor-pointer">

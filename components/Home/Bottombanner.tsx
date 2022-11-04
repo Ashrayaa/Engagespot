@@ -4,7 +4,7 @@ type Props = {};
 
 export default function Screen7({}: Props) {
   return (
-    <div className="flex flex-col gap-6 p-8 mt-10 text-white bg-gradient-to-r from-spotpurple to-engagepurple lg:m-16 lg:border rounded-2xl">
+    <div className="flex mx-6 flex-col gap-6 p-8 mt-10 text-white bg-gradient-to-r from-spotpurple to-engagepurple lg:m-16 lg:border rounded-2xl">
       <h1 className="font-semibold text-xl md:text-2xl text-center xl:text-3xl">
         A complete notifications system, setup in minutes
       </h1>

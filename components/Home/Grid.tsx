@@ -14,7 +14,7 @@ type Props = {};
 
 export default function Screen4({}: Props) {
   return (
-    <div className="flex flex-col xl:px-12">
+    <div className="flex flex-col xl:px-12 px-6">
       <div className="flex flex-col gap-2 justify-center items-center align-middle">
         <h1 className="text-xl px-4 font-semibold sm:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-r from-spotpurple to-engagepurple mt-8">
           Features to build the <br />

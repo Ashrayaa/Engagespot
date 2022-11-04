@@ -6,6 +6,7 @@ import Topnav from '../components/Home/Topnav';
 import IntegrationIntro from '../components/Integrations/IntegrationIntro';
 import IntegrationGrid from '../components/Integrations/IntegrationGrid';
 import Bottombanner from '../components/Home/Bottombanner';
+import Footer from '../components/Home/Footer';
 
 const Integration: NextPage = () => {
     return (
@@ -19,7 +20,7 @@ const Integration: NextPage = () => {
        <IntegrationIntro/>
        <IntegrationGrid/>
        <Bottombanner/>
-
+      <Footer/>
       </div>
     )
   }

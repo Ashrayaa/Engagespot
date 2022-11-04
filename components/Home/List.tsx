@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Screen5({}: Props) {
   return (
-    <div className="px-4">
+    <div className="px-4 mx-4">
       <p className="text-center font-medium sm:text-xl md:text-2xl text-sm py-2 leading-6 mb-4">
         And many more features out-of-the box to build a notification system in
         minutes.

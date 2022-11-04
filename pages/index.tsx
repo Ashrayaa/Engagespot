@@ -7,10 +7,11 @@ import Screen5 from '../components/Home/List';
 import Screen6 from '../components/Home/Application';
 import Screen7 from '../components/Home/Bottombanner';
 import Topnav from '../components/Home/Topnav';
+import Footer from '../components/Home/Footer';
 
 const Home: NextPage = () => {
   return (
-    <div className='lg:px-0 lg:py-8 p-6'>
+    <div className='lg:px-0 lg:py-8'>
       <Head>
         <title>Engagespot</title>
         <meta name="description" content="Engagespot" />
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <Screen5/>
       <Screen6/>
       <Screen7/>
+      <Footer/>
     </div>
   )
 }
